@@ -78,6 +78,9 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
+.filtercolorcss {
+    font-size: 30px;
+}
 
 /* images */
 .flowersimg {
@@ -87,3 +90,72 @@ body {
     margin: 0 auto;
 }
 
+/* container that the whole cards thing is in */
+.container {
+    background-color: #ffffe4;
+    border-radius: 20px;
+    border: 5px solid #713156;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+}
+/* row of cards */
+.bigcontainer .row {
+    justify-content: center;
+    align-items: center;
+}
+/* cards */
+.card {
+    background-color: #ffffca;
+    border-radius: 20px;
+    border: 5px solid #721c63;
+    margin: 20px;
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.card-title {
+    font-weight: 700;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.card-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.moreinfobutton {
+    color: white;
+    background-color: #91218A;
+    border-radius: 10px;
+    border: 1px solid #420F3F;
+}
+.moreinfobutton:hover {
+    background-color: #3c0b39;
+    border-color: #7f1778;
+}
+.everydessertimg {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+/* click to return to top */
+.clicktoreturntotop {
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: #6F2150;
+    border-radius: 15px;
+    border: 3px solid #180318;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 30px;
+    width: 90%;
+}
